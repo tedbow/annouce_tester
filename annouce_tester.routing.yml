@@ -1,0 +1,7 @@
+annouce_tester.default_controller_announce:
+  path: '/annouce_tester/announce'
+  defaults:
+    _controller: '\Drupal\annouce_tester\Controller\DefaultController::announce'
+    _title: 'announce'
+  requirements:
+    _permission: 'access content'

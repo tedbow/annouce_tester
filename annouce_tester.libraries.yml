@@ -1,0 +1,7 @@
+annouce_test:
+  version: VERSION
+  js:
+    js/annouce_test.js: {}
+  dependencies:
+    - core/drupal
+    - core/drupal.announce
